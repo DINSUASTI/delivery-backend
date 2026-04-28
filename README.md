@@ -68,12 +68,12 @@
             OWNER to postgres;
 
 2. Abrir VS Code
-3. Git clone https://github.com/DINSUASTI/delivery-backend.git
-4. Ejecución WebHook (ejecutar en terminal vs code):
+4. Git clone https://github.com/DINSUASTI/delivery-backend.git
+5. Ejecución WebHook (ejecutar en terminal vs code - Ubuntu 24.04):
     cd /home/dinsuasti/delivery 
       ./mvnw spring-boot:run
-5. Ejecución simulación sistema externo (ejecutar en otra terminal vs code):
+6. Ejecución simulación sistema externo (ejecutar en otra terminal vs code - Ubuntu 24.04):
     cd /home/dinsuasti/delivery
       ./mvnw -f ext-call/pom.xml spring-boot:run
-6. Swagger webhook: http://localhost:8080/swagger-ui/index.html
-7. Swagger servicio que simula plataforma externa: http://localhost:8081/swagger-ui/index.html
+7. Swagger webhook: http://localhost:8080/swagger-ui/index.html
+8. Swagger servicio que simula plataforma externa: http://localhost:8081/swagger-ui/index.html
